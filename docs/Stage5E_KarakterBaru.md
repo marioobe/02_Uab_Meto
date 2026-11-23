@@ -1,6 +1,6 @@
-# Stage 5E - Karakter Baru (Karakter_baru.png)
+﻿# Stage 5E - Karakter Baru (Karakter_baru.png)
 
-Status: terpasang & dikonfirmasi pengguna (uji otomatis perangkat terbatas - lihat 6.2).
+Status: terpasang & teruji di perangkat (CPH1803, Android 8.1).
 Tanggal: 2026-11-23.
 
 ## 1. Tujuan
@@ -96,17 +96,50 @@ dan `01_perbandingan_lama_baru.png`.
 APK lebih kecil dari versi sebelumnya (76.679.996 B) karena tekstur karakter
 turun dari 262x473 menjadi 148x276 per frame dan jumlah frame 16 -> 12.
 
-### 6.2 Uji perangkat
+### 6.2 Uji perangkat (CPH1803, Android 8.1)
 
-| Uji | Hasil |
+| Uji | Hasil | Bukti |
+|---|---|---|
+| Install & buka aplikasi | PASS - `Success`, Unity berjalan, 0 `FATAL EXCEPTION` | - |
+| Sisa putih/halo di tepi karakter | **PASS** - tidak terlihat pada semua frame; dikonfirmasi juga oleh pengguna | 03, 06, 07, 08 |
+| Idle menghadap depan | PASS - frame kaki rapat, tidak bergoyang | 03, 10 |
+| Jalan menghadap depan (bawah) | PASS - 4 frame siklus jalan depan | 08, 10 |
+| Jalan samping kanan | PASS - profil menghadap kanan | 06, 09 |
+| Jalan samping kiri | PASS - pencerminan (`flipX`) menghadap kiri | 07 |
+| Jalan membelakangi kamera (atas) | PASS - punggung terlihat, kaki melangkah | 04, 05 |
+| Ukuran karakter di dunia | setara karakter lama; tidak menutupi/tertimbun objek | 03, 09 |
+| Crash / exception | 0 fatal, 0 `NullReferenceException` selama uji | logcat |
+
+Catatan metode uji: joystick diuji dengan **tekan-tahan** pada satu titik
+(`adb shell input swipe x y x y <durasi>`), bukan geser dari pusat. Geser
+`input swipe` dari pusat joystick tidak selalu diteruskan sebagai drag oleh
+EventSystem perangkat ini.
+
+### 6.3 Bukti screenshot
+
+Folder: `Builds/Android/dist/Bukti_KarakterBaru/`
+
+| Berkas | Isi |
 |---|---|
-| Aplikasi terpasang & dibuka | PASS (install `Success`, Unity berjalan tanpa fatal exception) |
-| Sisa putih/halo pada karakter | **PASS - dikonfirmasi pengguna**: "tidak ada garis putih lagi" |
-| Screenshot otomatis build ini | **TIDAK DIAMBIL** - interface ADB hilang setelah layar perangkat tidur; Windows hanya mendeteksi MTP/USB storage (VID_22D9 PID_2773 tanpa interface ADB) |
-| Animasi jalan depan/samping/belakang | **BELUM DIUJI OTOMATIS** - menunggu ADB aktif kembali |
+| `00_preview_frame_import.png` | 12 frame hasil impor di atas kotak-kotak |
+| `01_perbandingan_lama_baru.png` | perbandingan karakter lama vs baru |
+| `03_idle_depan_gerbang.jpg` | idle depan di gerbang Base_Map |
+| `04_jalan_belakang.jpg` | jalan membelakangi kamera (mid-stride) |
+| `05_jalan_belakang_rumah.jpg` | jalan belakang, tiba di pintu rumah |
+| `06_jalan_samping_kanan.jpg` | jalan samping kanan |
+| `07_jalan_samping_kiri.jpg` | jalan samping kiri (hasil flipX) |
+| `08_jalan_depan_gerbang.jpg` | menghadap depan di gerbang |
+| `09_jalan_samping_kanan_terbuka.jpg` | samping kanan di area terbuka |
+| `10_idle_depan_terbuka.jpg` | idle depan setelah berhenti |
 
-Screenshot `01_setelah_install.png` dan `02_tunggu.png` berwarna hitam karena
-layar perangkat mati (`Display Power: state=OFF`), bukan karena crash.
+### 6.4 Dampak pada save perangkat
+
+Save lama dicadangkan sebelum install di
+`Builds/Backup/save_pre_karakter/save.json` (905 B, 10 objek Dapur, XP 115).
+Setelah pengujian, save berisi 15 objek terbaca (termasuk `sumur`,
+`daun_pisang`, `bakul_hasil`, `tomat`, `pohon_mangga`), 1 buah, XP 170,
+`lastScene` = `Base_Map`. Perubahan ini berasal dari permainan/uji, bukan
+migrasi otomatis; backup **tidak** dipulihkan agar progres tidak hilang.
 
 ## 7. Rollback
 
@@ -121,8 +154,8 @@ kembalikan dua skrip editor, lalu rebuild scene & APK.
 
 ## 8. Risiko tersisa
 
-1. Animasi jalan belum diverifikasi otomatis di perangkat untuk build ini;
-   konfirmasi pengguna baru mencakup tidak adanya garis putih.
+1. Uji gerak memakai tekan-tahan joystick (lihat 6.2); keempat arah lolos,
+   tetapi durasi/kecepatan frame belum diukur secara numerik.
 2. Baris profil kiri pada sheet tidak dipakai; sisi kiri memakai pencerminan
    baris kanan. Bila pencerminan terlihat janggal, baris 2 bisa diaktifkan
    dengan menambah animasi kiri/kanan terpisah di `PlayerAnimator2D`.

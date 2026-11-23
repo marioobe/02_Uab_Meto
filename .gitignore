@@ -70,6 +70,7 @@ Builds/Android/dist/Bukti_Spotlight/*
 !Builds/Android/dist/Bukti_KarakterBaru/
 Builds/Android/dist/Bukti_KarakterBaru/*
 !Builds/Android/dist/Bukti_KarakterBaru/*.png
+!Builds/Android/dist/Bukti_KarakterBaru/*.jpg
 
 *.apk
 *.aab

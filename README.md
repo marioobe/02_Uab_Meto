@@ -112,6 +112,7 @@ Menu editor tersedia: `Tools/UAB METO/…` (build data, build scene, build APK).
 | `Stage2_Remediation_TestMatrix.md` | 264 assertion & matriks uji |
 | `Stage5B_ScrollAudio.md` | uji scroll & audio `.wav`/`.m4a` |
 | `Stage5D_SpotlightBGM.md` | perbaikan titik Dapur & musik latar |
+| `Stage5E_KarakterBaru.md` | penggantian spritesheet karakter & pembersihan tepi |
 | `Deployment_SMP_2026-11-24.md` | artefak, hasil uji, batasan deploy |
 | `prompt_asset.md` | prompt generator aset (base map, interior, UI) |
 

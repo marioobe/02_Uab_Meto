@@ -322,11 +322,12 @@ public static class GameSceneBuilder
     private static void CreatePlayer(Vector2 spawn, out PlayerMovement2D movement,
         out PlayerInteractor interactor)
     {
-        // Spritesheet Yuuta 4x4: 4 arah x 4 frame.
-        Sprite[] idleDown = Row2("idle_down");
+        // Spritesheet karakter 4x4: idle memakai frame pertama (kaki rapat),
+        // jalan memakai seluruh 4 frame per arah.
         Sprite[] walkDown = Row2("walk_down");
         Sprite[] walkSide = Row2("walk_side");
         Sprite[] walkUp = Row2("walk_up");
+        Sprite[] idleDown = walkDown.Length > 0 ? new[] { walkDown[0] } : new Sprite[0];
         Sprite[] idleSide = walkSide.Length > 0 ? new[] { walkSide[0] } : new Sprite[0];
         Sprite[] idleUp = walkUp.Length > 0 ? new[] { walkUp[0] } : new Sprite[0];
 

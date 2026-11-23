@@ -115,7 +115,15 @@ Menu editor tersedia: `Tools/UAB METO/…` (build data, build scene, build APK).
 | `Deployment_SMP_2026-11-24.md` | artefak, hasil uji, batasan deploy |
 | `prompt_asset.md` | prompt generator aset (base map, interior, UI) |
 
-## Lisensi
+## Lisensi & Kepemilikan
 
-Kode dan dokumen milik proyek Uab Meto. Musik latar "Feel Good Island Loop"
-(musik: Brandon Morris; loop: AntumDeluge) — CC0.
+Proyek **Uab Meto** adalah milik kelompok **Dady_Home_Stay**:
+
+- Mario Batista Spanyola Obe
+- Basilo Agung de Fretis
+- Benediktus Umardani Neonbeni
+- Chriscento Novaldry Nokas
+- Fabriozio Yakobus Sasi
+
+Musik latar "Feel Good Island Loop" (musik: Brandon Morris; loop: AntumDeluge)
+berlisensi CC0.

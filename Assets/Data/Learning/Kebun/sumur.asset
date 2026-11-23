@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: sumur
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: sumur
+  sceneKey: Kebun
+  category: Fasilitas
+  namaIndonesia: Sumur
+  namaDawan: Oe mata
+  caraBaca: oe mat'a
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Sumur adalah sumber air untuk menyiram tanaman dan kebutuhan rumah.
+  image: {fileID: 21300000, guid: 3c8f86b3bfaaf714b8727040a3783534, type: 3}
+  pronunciation: {fileID: 8300000, guid: 0149eb770ff6eb349b7194a9101319fa, type: 3}
+  questions:
+  - question: Sumur menghasilkan ...
+    options:
+    - api
+    - tanah kering
+    - air
+    correctIndex: 2
+    explanation: Sumur menjadi sumber air.
+    usesDawan: 0
+  - question: Air sumur dipakai untuk ...
+    options:
+    - menyiram tanaman
+    - menyalakan lampu
+    - membuat kain
+    correctIndex: 0
+    explanation: Air sumur menyiram tanaman dan kebutuhan rumah.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Sumur?
+    options:
+    - Oe mata
+    - Hau lelo
+    - Hau noah
+    correctIndex: 0
+    explanation: 'Dalam bahasa Dawan, sumur disebut Oe mata (dibaca: oe mat''a).'
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Oe mata"?
+    options:
+    - Sumur
+    - Alat kebun
+    - Terong
+    correctIndex: 0
+    explanation: 'Kata Dawan Oe mata berarti sumur (dibaca: oe mat''a).'
+    usesDawan: 1
+  topicId: 8
+  role: 0
+  crossTopics: []
+  order: 1

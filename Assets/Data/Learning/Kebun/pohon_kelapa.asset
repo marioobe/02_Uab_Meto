@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: pohon_kelapa
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: pohon_kelapa
+  sceneKey: Kebun
+  category: Tanaman
+  namaIndonesia: Pohon kelapa
+  namaDawan: Hau noah
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Pohon kelapa tumbuh tinggi dan berdaun panjang. Buahnya disebut kelapa.
+  image: {fileID: 21300000, guid: 696d48ecd7d1ad44ba9db854f1bb6c1a, type: 3}
+  pronunciation: {fileID: 8300000, guid: 40659e3cb30e7724e93c900938e101d2, type: 3}
+  questions:
+  - question: Daun pohon kelapa berbentuk ...
+    options:
+    - jarum kecil
+    - panjang
+    - bulat kecil
+    correctIndex: 1
+    explanation: Daun kelapa panjang dan menyirip.
+    usesDawan: 0
+  - question: Pohon kelapa tumbuh ...
+    options:
+    - di dalam air
+    - tinggi
+    - di bawah batu
+    correctIndex: 1
+    explanation: Batang kelapa menjulang tinggi.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Pohon kelapa?
+    options:
+    - Lele utan
+    - Hau noah
+    - Hau lelo
+    correctIndex: 1
+    explanation: Dalam bahasa Dawan, pohon kelapa disebut Hau noah.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Hau noah"?
+    options:
+    - Daun pisang
+    - Pohon kelapa
+    - Bakul hasil panen
+    correctIndex: 1
+    explanation: Kata Dawan Hau noah berarti pohon kelapa.
+    usesDawan: 1
+  topicId: 12
+  role: 0
+  crossTopics: []
+  order: 2

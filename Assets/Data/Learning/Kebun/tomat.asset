@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: tomat
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: tomat
+  sceneKey: Kebun
+  category: Tanaman
+  namaIndonesia: Tomat
+  namaDawan: Kaliman
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Tomat berbuah merah dan dipakai untuk masakan.
+  image: {fileID: 21300000, guid: 17eb4ff7be42b7346968cb995f72ea38, type: 3}
+  pronunciation: {fileID: 8300000, guid: a85140d0f27f22544abff8e7e22b4def, type: 3}
+  questions:
+  - question: Warna buah tomat yang matang adalah ...
+    options:
+    - merah
+    - biru
+    - hitam
+    correctIndex: 0
+    explanation: Tomat matang berwarna merah.
+    usesDawan: 0
+  - question: Tomat biasanya dipakai untuk ...
+    options:
+    - masakan
+    - bahan bakar
+    - pakaian
+    correctIndex: 0
+    explanation: Tomat menjadi bahan masakan.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Tomat?
+    options:
+    - Oko
+    - Besi tofa
+    - Kaliman
+    correctIndex: 2
+    explanation: Dalam bahasa Dawan, tomat disebut Kaliman.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Kaliman"?
+    options:
+    - Bibit tanaman
+    - Kebun sayur
+    - Tomat
+    correctIndex: 2
+    explanation: Kata Dawan Kaliman berarti tomat.
+    usesDawan: 1
+  topicId: 6
+  role: 0
+  crossTopics: []
+  order: 2

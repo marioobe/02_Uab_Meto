@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: tikar_rumah
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: tikar_rumah
+  sceneKey: Rumah
+  category: Perabot
+  namaIndonesia: Tikar
+  namaDawan: Na'he
+  caraBaca: 
+  validationStatus: 0
+  validator: 
+  validationDate: 
+  validationNotes: Menunggu validasi penutur asli dialek TTU. Jangan dipakai sebagai materi final.
+  explanation: Tikar di rumah dipakai untuk duduk dan berbincang.
+  image: {fileID: 21300000, guid: e930ba72ce752c44faadec940348ab5c, type: 3}
+  pronunciation: {fileID: 0}
+  questions:
+  - question: Tikar di rumah dipakai untuk ...
+    options:
+    - memotong
+    - duduk
+    - mencangkul
+    correctIndex: 1
+    explanation: Tikar menjadi alas duduk saat berkumpul.
+    usesDawan: 0
+  - question: Tikar dibuat dari bahan ...
+    options:
+    - anyaman
+    - logam
+    - kaca
+    correctIndex: 0
+    explanation: Tikar berasal dari anyaman serat.
+    usesDawan: 0
+  topicId: 7
+  role: 1
+  crossTopics: []
+  order: 13

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: jagung
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: jagung
+  sceneKey: Dapur
+  category: Hasil kebun
+  namaIndonesia: Jagung
+  namaDawan: Pena
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Jagung digantung di atas tungku agar kering dan tahan lama.
+  image: {fileID: 21300000, guid: c29e94e80cfa0774cb0b464366007a2b, type: 3}
+  pronunciation: {fileID: 8300000, guid: 2b6cba56d80d4b146b49f8d78da62b30, type: 3}
+  questions:
+  - question: Mengapa jagung digantung di atas tungku?
+    options:
+    - Agar berwarna biru
+    - Agar bisa terbang
+    - Agar kering dan tahan lama
+    correctIndex: 2
+    explanation: Asap dan panas tungku membantu jagung mengering.
+    usesDawan: 0
+  - question: Jagung adalah contoh ...
+    options:
+    - alat masak
+    - hasil kebun
+    - perabot rumah
+    correctIndex: 1
+    explanation: Jagung dipanen dari kebun.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Jagung?
+    options:
+    - Pena
+    - Na'i Hana
+    - Hau otu
+    correctIndex: 0
+    explanation: Dalam bahasa Dawan, jagung disebut Pena.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Pena"?
+    options:
+    - Tungku batu
+    - Jagung
+    - Bangku kayu
+    correctIndex: 1
+    explanation: Kata Dawan Pena berarti jagung.
+    usesDawan: 1
+  topicId: 6
+  role: 0
+  crossTopics: []
+  order: 1

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: bakul_hasil
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: bakul_hasil
+  sceneKey: Kebun
+  category: Alat
+  namaIndonesia: Bakul hasil panen
+  namaDawan: Oko
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Bakul dipakai mengumpulkan hasil panen dari kebun.
+  image: {fileID: 21300000, guid: 3d755f18edd825c428ae3f14234d0885, type: 3}
+  pronunciation: {fileID: 8300000, guid: ff7791de6b4e63d41b4a801f89280bcb, type: 3}
+  questions:
+  - question: Bakul hasil panen dipakai untuk ...
+    options:
+    - memasak
+    - mengumpulkan hasil kebun
+    - menanam bibit
+    correctIndex: 1
+    explanation: Bakul menampung hasil panen.
+    usesDawan: 0
+  - question: Bakul hasil panen diletakkan di ...
+    options:
+    - kebun
+    - sumur
+    - atap rumah
+    correctIndex: 0
+    explanation: Bakul dipakai saat memanen di kebun.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Bakul hasil panen?
+    options:
+    - Oko
+    - Hau lelo
+    - Hau noah
+    correctIndex: 0
+    explanation: Dalam bahasa Dawan, bakul hasil panen disebut Oko.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Oko"?
+    options:
+    - Pohon kelapa
+    - Pohon mangga
+    - Bakul hasil panen
+    correctIndex: 2
+    explanation: Kata Dawan Oko berarti bakul hasil panen.
+    usesDawan: 1
+  topicId: 6
+  role: 1
+  crossTopics:
+  - pekerjaan
+  order: 6

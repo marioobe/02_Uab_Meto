@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: pohon_jeruk
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: pohon_jeruk
+  sceneKey: Kebun
+  category: Tanaman
+  namaIndonesia: Pohon jeruk
+  namaDawan: Hau lelo
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Pohon jeruk menghasilkan buah jeruk. Buah ini bisa dimakan dan menambah hati.
+  image: {fileID: 21300000, guid: 49da5472efd80204d86bb4d1695783c6, type: 3}
+  pronunciation: {fileID: 8300000, guid: 23ada96b70db5b7428d8b6025ad53ca0, type: 3}
+  questions:
+  - question: Pohon jeruk menghasilkan ...
+    options:
+    - padi
+    - buah jeruk
+    - kayu bakar
+    correctIndex: 1
+    explanation: Jeruk tumbuh di pohon jeruk.
+    usesDawan: 0
+  - question: Buah jeruk bisa dipakai untuk ...
+    options:
+    - menyalakan api
+    - membuat pagar
+    - menambah hati
+    correctIndex: 2
+    explanation: Buah di kebun memulihkan satu hati.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Pohon jeruk?
+    options:
+    - Kaut
+    - Hau lelo
+    - Unus
+    correctIndex: 1
+    explanation: Dalam bahasa Dawan, pohon jeruk disebut Hau lelo.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Hau lelo"?
+    options:
+    - Pohon kelapa
+    - Pohon jeruk
+    - Pohon mangga
+    correctIndex: 1
+    explanation: Kata Dawan Hau lelo berarti pohon jeruk.
+    usesDawan: 1
+  topicId: 12
+  role: 0
+  crossTopics: []
+  order: 1

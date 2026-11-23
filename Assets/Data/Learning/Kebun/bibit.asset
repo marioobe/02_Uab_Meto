@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: bibit
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: bibit
+  sceneKey: Kebun
+  category: Tanaman
+  namaIndonesia: Bibit tanaman
+  namaDawan: fini
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Bibit adalah tanaman muda yang disiapkan untuk ditanam di kebun.
+  image: {fileID: 21300000, guid: bb04139d802b76c4592b7bd39c71f9d0, type: 3}
+  pronunciation: {fileID: 8300000, guid: a6abe525dd9912a44beeeb23e94efd56, type: 3}
+  questions:
+  - question: Bibit ditanam agar menjadi ...
+    options:
+    - batu
+    - tanaman dewasa
+    - pagar
+    correctIndex: 1
+    explanation: Bibit tumbuh menjadi tanaman dewasa.
+    usesDawan: 0
+  - question: Bibit sebaiknya disiram ...
+    options:
+    - dengan api
+    - secara teratur
+    - sekali saja seumur hidup
+    correctIndex: 1
+    explanation: Bibit perlu air yang cukup dan teratur.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Bibit tanaman?
+    options:
+    - fini
+    - Oko
+    - Kaliman
+    correctIndex: 0
+    explanation: Dalam bahasa Dawan, bibit tanaman disebut fini.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "fini"?
+    options:
+    - Terong
+    - Bibit tanaman
+    - Alat kebun
+    correctIndex: 1
+    explanation: Kata Dawan fini berarti bibit tanaman.
+    usesDawan: 1
+  topicId: 12
+  role: 0
+  crossTopics: []
+  order: 5

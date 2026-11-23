@@ -1,0 +1,75 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Native build cache (IL2CPP)
+.utmp/
+
+# Backup lokal duplikat
+Backups/
+
+# Editor / solusi
+.vscode/
+*.slnx
+
+# Rekaman suara penutur (data pribadi, tidak diunggah)
+docs/rekaman penutur/
+
+# Berkas temp root
+hudzoom.png
+
+# ============================================================
+# Uab Meto: repo ringan (kode + alur + dokumen). Aset besar
+# dikecualikan supaya teman hanya perlu menarik sumber & laporan.
+# ============================================================
+
+# Seni (latar, sprite, karakter) - bukan bagian dari repo ringan
+Assets/Art/
+
+# Gambar referensi / percobaan aset
+Assets/foto/
+
+# Rekaman audio Dawan (wav di Assets, m4a di StreamingAssets)
+Assets/Audio/
+Assets/StreamingAssets/
+
+# Build biner (APK/zip) kecuali screenshot bukti uji
+Builds/*
+!Builds/Android/
+Builds/Android/*
+!Builds/Android/dist/
+Builds/Android/dist/*
+!Builds/Android/dist/Bukti_Spotlight/
+Builds/Android/dist/Bukti_Spotlight/*
+!Builds/Android/dist/Bukti_Spotlight/*.jpg
+
+*.apk
+*.aab
+*.zip
+*.7z
+*.rar

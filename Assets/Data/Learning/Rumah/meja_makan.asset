@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: meja_makan
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: meja_makan
+  sceneKey: Rumah
+  category: Perabot
+  namaIndonesia: Meja makan
+  namaDawan: Mei/mej
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Meja makan adalah meja panjang tempat keluarga makan bersama.
+  image: {fileID: 21300000, guid: 1066a47bd2aa666409d9855ca58906cc, type: 3}
+  pronunciation: {fileID: 8300000, guid: 7707e657150763541875948f888a8f83, type: 3}
+  questions:
+  - question: Meja makan dipakai untuk ...
+    options:
+    - makan bersama
+    - mencuci pakaian
+    - menyimpan air
+    correctIndex: 0
+    explanation: Keluarga berkumpul di meja makan.
+    usesDawan: 0
+  - question: Meja makan berbentuk ...
+    options:
+    - bulat sempurna
+    - panjang
+    - seperti bola
+    correctIndex: 1
+    explanation: Meja makan di rumah ini berbentuk panjang.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Meja makan?
+    options:
+    - Peti
+    - hala
+    - Mei/mej
+    correctIndex: 2
+    explanation: Dalam bahasa Dawan, meja makan disebut Mei/mej.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Mei/mej"?
+    options:
+    - Lemari
+    - Meja makan
+    - Keranjang
+    correctIndex: 1
+    explanation: Kata Dawan Mei/mej berarti meja makan.
+    usesDawan: 1
+  topicId: 7
+  role: 0
+  crossTopics: []
+  order: 5

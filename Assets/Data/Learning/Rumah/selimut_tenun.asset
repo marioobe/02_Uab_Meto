@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: selimut_tenun
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: selimut_tenun
+  sceneKey: Rumah
+  category: Kain
+  namaIndonesia: Selimut tenun
+  namaDawan: Beti/Tais
+  caraBaca: Betei/tais
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Selimut tenun dibuat dari kain bermotif dan dipakai saat tidur agar hangat.
+  image: {fileID: 21300000, guid: 1edaf22473ae92a4086d626329c569f5, type: 3}
+  pronunciation: {fileID: 8300000, guid: 0499f0a694825dd438772ded81056cd4, type: 3}
+  questions:
+  - question: Selimut tenun dipakai agar ...
+    options:
+    - hangat
+    - basah
+    - terbang
+    correctIndex: 0
+    explanation: Selimut menjaga tubuh tetap hangat.
+    usesDawan: 0
+  - question: Selimut tenun memiliki ...
+    options:
+    - motif
+    - mesin
+    - layar
+    correctIndex: 0
+    explanation: Kain tenun dihiasi motif khas.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Selimut tenun?
+    options:
+    - Mei/mej
+    - lemari
+    - Beti/Tais
+    correctIndex: 2
+    explanation: 'Dalam bahasa Dawan, selimut tenun disebut Beti/Tais (dibaca: Betei/tais).'
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Beti/Tais"?
+    options:
+    - Selimut tenun
+    - Bangku
+    - Keranjang
+    correctIndex: 0
+    explanation: 'Kata Dawan Beti/Tais berarti selimut tenun (dibaca: Betei/tais).'
+    usesDawan: 1
+  topicId: 10
+  role: 0
+  crossTopics: []
+  order: 1

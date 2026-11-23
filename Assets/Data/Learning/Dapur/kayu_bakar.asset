@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: kayu_bakar
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: kayu_bakar
+  sceneKey: Dapur
+  category: Bahan bakar
+  namaIndonesia: Kayu bakar
+  namaDawan: Hau otu
+  caraBaca: hau outu
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Kayu bakar adalah ranting dan batang kering yang dibakar di tungku.
+  image: {fileID: 21300000, guid: 1b3eb0ca991021f4e867b387d6757d67, type: 3}
+  pronunciation: {fileID: 8300000, guid: 298a80861651b39428d2634bdc4750aa, type: 3}
+  questions:
+  - question: Kayu bakar dipakai untuk ...
+    options:
+    - menyeduh teh
+    - menyalakan api
+    - menyiram tanaman
+    correctIndex: 1
+    explanation: Kayu bakar menjadi bahan bakar api tungku.
+    usesDawan: 0
+  - question: Kayu bakar sebaiknya disimpan ...
+    options:
+    - di dalam air
+    - di atas kompor menyala
+    - di tempat kering
+    correctIndex: 2
+    explanation: Kayu kering lebih mudah menyala dan aman disimpan.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Kayu bakar?
+    options:
+    - Na'i naijan
+    - Hau otu
+    - Na'i
+    correctIndex: 1
+    explanation: 'Dalam bahasa Dawan, kayu bakar disebut Hau otu (dibaca: hau outu).'
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Hau otu"?
+    options:
+    - Kayu bakar
+    - Bangku kayu
+    - Jagung
+    correctIndex: 0
+    explanation: 'Kata Dawan Hau otu berarti kayu bakar (dibaca: hau outu).'
+    usesDawan: 1
+  topicId: 5
+  role: 0
+  crossTopics: []
+  order: 3

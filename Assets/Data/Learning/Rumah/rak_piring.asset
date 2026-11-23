@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: rak_piring
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: rak_piring
+  sceneKey: Rumah
+  category: Perabot
+  namaIndonesia: Rak piring
+  namaDawan: Pika Bale
+  caraBaca: piak bale
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Rak piring menyimpan piring, mangkuk, dan cangkir agar rapi.
+  image: {fileID: 21300000, guid: 7004750d8e9af904a9b2098da64dff96, type: 3}
+  pronunciation: {fileID: 8300000, guid: 779e300be9d6d9d4eb135dae2a6dec1d, type: 3}
+  questions:
+  - question: Rak piring menyimpan ...
+    options:
+    - kayu bakar
+    - alas kaki
+    - piring dan mangkuk
+    correctIndex: 2
+    explanation: Rak piring menampung peralatan makan.
+    usesDawan: 0
+  - question: Rak piring biasanya ditempatkan di ...
+    options:
+    - sumur
+    - dapur atau ruang makan
+    - jalan kampung
+    correctIndex: 1
+    explanation: Rak piring dekat tempat makan.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Rak piring?
+    options:
+    - Peti
+    - Pika Bale
+    - hala
+    correctIndex: 1
+    explanation: 'Dalam bahasa Dawan, rak piring disebut Pika Bale (dibaca: piak bale).'
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Pika Bale"?
+    options:
+    - Lemari
+    - Meja makan
+    - Rak piring
+    correctIndex: 2
+    explanation: 'Kata Dawan Pika Bale berarti rak piring (dibaca: piak bale).'
+    usesDawan: 1
+  topicId: 7
+  role: 0
+  crossTopics: []
+  order: 4

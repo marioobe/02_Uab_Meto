@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: alat_kebun
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: alat_kebun
+  sceneKey: Kebun
+  category: Alat
+  namaIndonesia: Alat kebun
+  namaDawan: Besi tofa
+  caraBaca: bese tofa
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Cangkul, sekop, dan sabit dipakai merawat kebun.
+  image: {fileID: 21300000, guid: 4ba9e8ee92dae1b4690fc2f0d0824d86, type: 3}
+  pronunciation: {fileID: 8300000, guid: 310916e966c22144c876ff150fe76458, type: 3}
+  questions:
+  - question: Cangkul dipakai untuk ...
+    options:
+    - memasak
+    - menjahit
+    - menggemburkan tanah
+    correctIndex: 2
+    explanation: Cangkul menggemburkan tanah.
+    usesDawan: 0
+  - question: Alat kebun disimpan di ...
+    options:
+    - gudang alat
+    - tempat tidur
+    - meja makan
+    correctIndex: 0
+    explanation: Gudang alat menjaga alat tetap aman.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Alat kebun?
+    options:
+    - Kaut
+    - Besi tofa
+    - Unus
+    correctIndex: 1
+    explanation: 'Dalam bahasa Dawan, alat kebun disebut Besi tofa (dibaca: bese tofa).'
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Besi tofa"?
+    options:
+    - Bakul hasil panen
+    - Cabai
+    - Alat kebun
+    correctIndex: 2
+    explanation: 'Kata Dawan Besi tofa berarti alat kebun (dibaca: bese tofa).'
+    usesDawan: 1
+  topicId: 12
+  role: 0
+  crossTopics: []
+  order: 6

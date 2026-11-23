@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: keranjang
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: keranjang
+  sceneKey: Rumah
+  category: Wadah
+  namaIndonesia: Keranjang
+  namaDawan: Oko suli
+  caraBaca: 
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Keranjang anyaman dipakai membawa dan menyimpan hasil kebun.
+  image: {fileID: 21300000, guid: afcf1a84d54e6af40babc1ee98ec5e20, type: 3}
+  pronunciation: {fileID: 8300000, guid: a61270efd98b87e4886f8ce957118aa6, type: 3}
+  questions:
+  - question: Keranjang dipakai membawa ...
+    options:
+    - api
+    - hasil kebun
+    - air panas
+    correctIndex: 1
+    explanation: Keranjang anyaman membawa hasil kebun.
+    usesDawan: 0
+  - question: Keranjang dibuat dengan cara ...
+    options:
+    - dilas
+    - dianyam
+    - ditempa
+    correctIndex: 1
+    explanation: Keranjang berasal dari anyaman.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Keranjang?
+    options:
+    - Na'i najan
+    - Pika Bale
+    - Oko suli
+    correctIndex: 2
+    explanation: Dalam bahasa Dawan, keranjang disebut Oko suli.
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Oko suli"?
+    options:
+    - Meja makan
+    - Keranjang
+    - Tempat tidur
+    correctIndex: 1
+    explanation: Kata Dawan Oko suli berarti keranjang.
+    usesDawan: 1
+  topicId: 7
+  role: 0
+  crossTopics:
+  - belanja
+  order: 10

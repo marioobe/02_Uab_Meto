@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: kebun_sayur
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: kebun_sayur
+  sceneKey: Kebun
+  category: Tanaman
+  namaIndonesia: Kebun sayur
+  namaDawan: Lele utan
+  caraBaca: lel utan
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Kebun sayur adalah petak tanah tempat menanam sayuran.
+  image: {fileID: 21300000, guid: 0250379b0b03f164ea6a0452336106bc, type: 3}
+  pronunciation: {fileID: 8300000, guid: ad38c074190315c4bab00e7e819e12b9, type: 3}
+  questions:
+  - question: Kebun sayur ditanami ...
+    options:
+    - batu
+    - sayuran
+    - pakaian
+    correctIndex: 1
+    explanation: Petak tanah ditanami sayur.
+    usesDawan: 0
+  - question: Sebelum menanam, tanah perlu ...
+    options:
+    - dicat
+    - dibekukan
+    - digemburkan
+    correctIndex: 2
+    explanation: Tanah gembur memudahkan akar tumbuh.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Kebun sayur?
+    options:
+    - Uki no'o
+    - Oko
+    - Lele utan
+    correctIndex: 2
+    explanation: 'Dalam bahasa Dawan, kebun sayur disebut Lele utan (dibaca: lel utan).'
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Lele utan"?
+    options:
+    - Kebun sayur
+    - Pohon kelapa
+    - Pohon mangga
+    correctIndex: 0
+    explanation: 'Kata Dawan Lele utan berarti kebun sayur (dibaca: lel utan).'
+    usesDawan: 1
+  topicId: 12
+  role: 0
+  crossTopics:
+  - tempat
+  order: 4

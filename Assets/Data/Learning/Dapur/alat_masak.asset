@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b8d314357cead94da5895b8e8808d1f, type: 3}
+  m_Name: alat_masak
+  m_EditorClassIdentifier: Assembly-CSharp::LearningObjectDefinition
+  id: alat_masak
+  sceneKey: Dapur
+  category: Alat
+  namaIndonesia: Alat masak
+  namaDawan: Na'i Hana
+  caraBaca: nai hana
+  validationStatus: 2
+  validator: Ibu Palmerya Sau
+  validationDate: 19/11/2026
+  validationNotes: Divalidasi penutur asli dialek TTU (Desa Sekon, Kec. Insana). Teks di luar kurung adalah cara tulis; di dalam kurung adalah cara baca/dialek.
+  explanation: Alat masak seperti sendok, sodet, dan panci digantung di rak dapur.
+  image: {fileID: 21300000, guid: a8200eab808cb8446a091780867dcb3f, type: 3}
+  pronunciation: {fileID: 8300000, guid: e2479f70480ba6f45920f139ad4953ff, type: 3}
+  questions:
+  - question: Alat masak disimpan di ...
+    options:
+    - kolong tempat tidur
+    - rak dapur
+    - atas pagar
+    correctIndex: 1
+    explanation: Rak dapur membuat alat masak rapi dan mudah diambil.
+    usesDawan: 0
+  - question: Contoh alat masak adalah ...
+    options:
+    - cangkul
+    - sodet
+    - sapu lidi
+    correctIndex: 1
+    explanation: Sodet dipakai mengaduk masakan.
+    usesDawan: 0
+  - question: Apa bahasa Dawan untuk Alat masak?
+    options:
+    - Na'i Hana
+    - Na'he
+    - Tunaf
+    correctIndex: 0
+    explanation: 'Dalam bahasa Dawan, alat masak disebut Na''i Hana (dibaca: nai hana).'
+    usesDawan: 1
+  - question: Apa arti kata Dawan "Na'i Hana"?
+    options:
+    - Tungku batu
+    - Kayu bakar
+    - Alat masak
+    correctIndex: 2
+    explanation: 'Kata Dawan Na''i Hana berarti alat masak (dibaca: nai hana).'
+    usesDawan: 1
+  topicId: 5
+  role: 0
+  crossTopics: []
+  order: 4

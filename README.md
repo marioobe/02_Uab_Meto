@@ -114,6 +114,7 @@ Menu editor tersedia: `Tools/UAB METO/…` (build data, build scene, build APK).
 | `Stage5D_SpotlightBGM.md` | perbaikan titik Dapur & musik latar |
 | `Stage5E_KarakterBaru.md` | penggantian spritesheet karakter & pembersihan tepi |
 | `instrumen_smp_putri/` | pre-test, post-test, kunci & rubrik, panduan Google Form |
+| `notebooklm/` | bahan sumber + prompt NotebookLM untuk slide presentasi peluncuran |
 | `Deployment_SMP_2026-11-24.md` | artefak, hasil uji, batasan deploy |
 | `prompt_asset.md` | prompt generator aset (base map, interior, UI) |
 
